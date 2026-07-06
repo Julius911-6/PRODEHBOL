@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+        content="PRODEHBOL — Pro Derechos Humanos Bolivia. Colectivo ciudadano de promoción, defensa y vigencia de los derechos humanos en el Estado Plurinacional de Bolivia." />
+  <meta name="keywords"
+        content="derechos humanos, Bolivia, PRODEHBOL, DDHH, asociación civil, Nadesdha Guevara" />
+  <meta name="author" content="PRODEHBOL" />
+  <meta property="og:title" content="PRODEHBOL — Pro Derechos Humanos Bolivia" />
+  <meta property="og:description"
+        content="Promovemos, defendemos y vigilamos la vigencia de los derechos humanos en Bolivia desde 2019." />
+  <meta property="og:type" content="website" />
+  <title>PRODEHBOL — Pro Derechos Humanos Bolivia</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Favicon inline SVG -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='11' fill='%23C8102E'/><rect y='11' width='32' height='10' fill='%23F4C300'/><rect y='21' width='32' height='11' fill='%23007A33'/></svg>" />
+</head>
+<body>
+
+  <!-- ════════════ BARRA SUPERIOR ════════════ -->
+  <div id="topbar" role="banner">
+    <div class="inner">
+      <span>
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        Calle Donoso Torrez #3, Zona Bajo San Isidro, Bolivia
+      </span>
+      <span>
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        Fundada en 2019
+      </span>
+    </div>
+  </div>
+
+  <!-- ════════════ HEADER / LOGO ════════════ -->
+  <header id="site-header" role="banner">
+    <div class="inner">
+      <div class="logo-area">
+        <img src="logo.png"
+             alt="Logotipo de PRODEHBOL"
+             id="site-logo"
+             onerror="this.style.display='none'" />
+        <div class="logo-text">
+          <h1>
+            <span>PRODE</span>HBOL
+          </h1>
+          <p>Pro Derechos Humanos — Bolivia</p>
+          <div class="bandera-stripe" aria-hidden="true">
+            <span class="s-rojo"></span>
+            <span class="s-amari"></span>
+            <span class="s-verde"></span>
+          </div>
+        </div>
+      </div>
+      <!-- Consigna estratégica visible en desktop -->
+      <div style="text-align:right; display:none;" id="hero-consigna-desktop">
+        <p style="font-style:italic; font-size:0.85rem; color:#888; max-width:220px; line-height:1.5;">
+          "Descolonizar los<br>Derechos Humanos"
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <!-- ════════════ NAVEGACIÓN ════════════ -->
+  <nav id="main-nav" role="navigation" aria-label="Menú principal">
+    <div class="inner">
+      <!-- Botón hamburguesa (móvil) -->
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <!-- Pestañas de navegación -->
+      <div class="nav-links" role="tablist">
+        <button data-tab="inicio"    role="tab" aria-selected="true"  id="tab-inicio">
+          🏠 Inicio
+        </button>
+        <button data-tab="quienes"   role="tab" aria-selected="false" id="tab-quienes">
+          👥 Quiénes Somos
+        </button>
+        <button data-tab="trabajo"   role="tab" aria-selected="false" id="tab-trabajo">
+          ⚖️ Nuestro Trabajo
+        </button>
+        <button data-tab="contacto"  role="tab" aria-selected="false" id="tab-contacto">
+          📍 Contacto
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ════════════ CONTENIDO PRINCIPAL ════════════ -->
+  <main id="content" role="main">
+
+    <!-- ─────────────────────────────────────────
+         SECCIÓN 1 — INICIO
+    ───────────────────────────────────────── -->
+    <section id="inicio" class="section" role="tabpanel" aria-labelledby="tab-inicio">
+
+      <!-- HERO -->
+      <div class="hero" aria-label="Presentación principal">
+        <div class="hero-eyebrow">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>
+          Estado Plurinacional de Bolivia · Desde 2019
+        </div>
+        <h2>Promovemos la <em>Dignidad Humana</em><br>en Bolivia</h2>
+        <p class="lema">"Descolonizar los Derechos Humanos"</p>
+        <p>
+          PRODEHBOL es un colectivo de ciudadanas y ciudadanos organizados como
+          asociación civil sin fines de lucro, comprometidos con la promoción,
+          defensa y plena vigencia de los derechos humanos en el Estado
+          Plurinacional de Bolivia.
+        </p>
+        <div class="hero-actions">
+          <button class="btn-primary" data-goto="quienes" aria-label="Conocer más sobre PRODEHBOL">
+            Conócenos
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </button>
+          <button class="btn-outline" data-goto="trabajo" aria-label="Ver líneas de trabajo">
+            Nuestras Líneas de Acción
+          </button>
+        </div>
+      </div>
+
+      <!-- PILARES CONSTITUCIONALES -->
+      <div class="section-title">
+        <h2>Pilares Constitucionales</h2>
+        <p>Fundamentos que guían el trabajo de PRODEHBOL, amparados en la Constitución Política del Estado.</p>
+      </div>
+
+      <div class="pilares-grid">
+        <div class="pilar-card">
+          <div class="pilar-icon">🕊️</div>
+          <h3>Dignidad Humana</h3>
+          <p>Cada persona merece ser tratada con plena dignidad, independientemente de su origen, condición o circunstancias.</p>
+        </div>
+        <div class="pilar-card">
+          <div class="pilar-icon">⚖️</div>
+          <h3>Igualdad y No Discriminación</h3>
+          <p>Todos los seres humanos son iguales ante la ley. Rechazamos toda forma de discriminación arbitraria.</p>
+        </div>
+        <div class="pilar-card">
+          <div class="pilar-icon">🌿</div>
+          <h3>Libre Determinación</h3>
+          <p>Defendemos el derecho de los pueblos y de las personas a decidir sobre su propio destino y desarrollo.</p>
+        </div>
+        <div class="pilar-card">
+          <div class="pilar-icon">📜</div>
+          <h3>Marco Constitucional</h3>
+          <p>Basamos nuestra acción en la CPE, tratados internacionales y estándares de derechos humanos reconocidos.</p>
+        </div>
+      </div>
+
+      <!-- ALERTA / AVISO INSTITUCIONAL -->
+      <div class="alert-strip" role="note" aria-label="Información institucional">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        <span>
+          <strong>Sobre nuestra consigna:</strong> "Descolonizar los Derechos Humanos" implica
+          reconocer y superar las estructuras históricas de exclusión y discriminación,
+          haciendo efectivos los derechos de todas y todos en el Estado Plurinacional de Bolivia.
+        </span>
+      </div>
+
+    </section><!-- /inicio -->
+
+
+    <!-- ─────────────────────────────────────────
+         SECCIÓN 2 — QUIÉNES SOMOS
+    ───────────────────────────────────────── -->
+    <section id="quienes" class="section" role="tabpanel" aria-labelledby="tab-quienes">
+
+      <div class="section-title">
+        <h2>Quiénes Somos</h2>
+        <p>Historia, identidad y liderazgo de PRODEHBOL.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-content">
+          <p>
+            <strong>Pro Derechos Humanos Bolivia — PRODEHBOL</strong> es un colectivo
+            de ciudadanas y ciudadanos que se organiza bajo la figura jurídica de
+            <strong>asociación civil sin fines de lucro</strong>. Su propósito
+            fundamental es la promoción, la defensa y la plena vigencia de los
+            derechos humanos en el Estado Plurinacional de Bolivia.
+          </p>
+
+          <div class="highlight-quote">
+            "Su propósito también es dar respuesta a las violaciones de los
+            derechos humanos en el país, impulsando mecanismos de diálogo
+            y propuestas concretas."
+          </div>
+
+          <p>
+            La organización <strong>nació en el año 2019</strong> como una iniciativa
+            de apoyo a personas que se encuentran en situación de vulnerabilidad.
+            Desde entonces, PRODEHBOL ha crecido como un referente de la sociedad
+            civil comprometida con los estándares nacionales e internacionales en
+            materia de derechos humanos.
+          </p>
+          <p>
+            PRODEHBOL se vincula de manera directa con el <strong>Estado
+            boliviano</strong> y sus instancias políticas y militares. Su enfoque
+            trasciende la simple denuncia: busca activamente establecer
+            <strong>mecanismos de diálogo</strong> para generar propuestas
+            orientadas a la solución estructural de las violaciones a los DDHH.
+          </p>
+          <p>
+            La organización tiene su sede en la ciudad de Bolivia, en la
+            <strong>Calle Donoso Torrez #3, Zona Bajo San Isidro</strong>,
+            donde se atiende a la ciudadanía y se coordina el trabajo institucional.
+          </p>
+        </div>
+
+        <!-- TARJETA FUNDADORA -->
+        <div>
+          <div class="founder-card">
+            <div class="avatar">
+              <div class="avatar-icon" aria-hidden="true">👩‍⚖️</div>
+              <h3>Ab. Nadesdha Guevara Oropeza</h3>
+              <p>Miembro Fundadora &amp; Directora Ejecutiva</p>
+            </div>
+            <div class="founder-body">
+              <p>
+                Abogada de profesión y lidereza social, la Ab. Nadesdha Guevara
+                Oropeza fundó PRODEHBOL en 2019 con la visión de construir una
+                organización ciudadana capaz de defender los derechos humanos
+                con herramientas jurídicas y diálogo político.
+              </p>
+              <div class="badge-founded">
+                📅 Fundada en 2019
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- VALORES -->
+      <div class="section-title">
+        <h2>Nuestros Valores</h2>
+        <p>Los principios que orientan cada acción de PRODEHBOL.</p>
+      </div>
+
+      <div class="valores-grid">
+        <div class="valor-item">
+          <div class="valor-dot"></div>
+          <div>
+            <h4>Dignidad</h4>
+            <p>Reconocemos y defendemos el valor intrínseco de cada ser humano sin excepción.</p>
+          </div>
+        </div>
+        <div class="valor-item">
+          <div class="valor-dot"></div>
+          <div>
+            <h4>Justicia</h4>
+            <p>Trabajamos por la reparación de las víctimas y la rendición de cuentas del Estado.</p>
+          </div>
+        </div>
+        <div class="valor-item">
+          <div class="valor-dot"></div>
+          <div>
+            <h4>Independencia</h4>
+            <p>Actuamos con autonomía frente a cualquier poder político, económico o ideológico.</p>
+          </div>
+        </div>
+        <div class="valor-item">
+          <div class="valor-dot"></div>
+          <div>
+            <h4>Solidaridad</h4>
+            <p>Nos comprometemos con las comunidades y personas más vulnerables del país.</p>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /quienes -->
+
+
+    <!-- ─────────────────────────────────────────
+         SECCIÓN 3 — NUESTRO TRABAJO
+    ───────────────────────────────────────── -->
+    <section id="trabajo" class="section" role="tabpanel" aria-labelledby="tab-trabajo">
+
+      <div class="section-title">
+        <h2>Nuestro Trabajo y Líneas de Acción</h2>
+        <p>Las principales áreas de intervención de PRODEHBOL en Bolivia.</p>
+      </div>
+
+      <div class="lineas-layout">
+
+        <div class="linea-card">
+          <div class="linea-num">01</div>
+          <h3>Denuncia y Documentación</h3>
+          <p>
+            Registramos y denunciamos casos de vulneración de los derechos
+            humanos ante instancias nacionales e internacionales. La documentación
+            rigurosa permite visibilizar patrones sistemáticos de violación y
+            exigir respuestas institucionales concretas.
+          </p>
+        </div>
+
+        <div class="linea-card">
+          <div class="linea-num">02</div>
+          <h3>Diálogo con el Estado</h3>
+          <p>
+            PRODEHBOL se relaciona directamente con el Estado boliviano y sus
+            instancias políticas y militares para establecer canales de diálogo
+            que generen propuestas reales de solución a los problemas de DDHH,
+            más allá de la simple denuncia.
+          </p>
+        </div>
+
+        <div class="linea-card">
+          <div class="linea-num">03</div>
+          <h3>Atención a Personas Vulnerables</h3>
+          <p>
+            Brindamos apoyo directo a personas en situación de vulnerabilidad:
+            víctimas de violencia, comunidades indígenas, mujeres afectadas,
+            personas privadas de libertad, y otros grupos que requieren
+            asistencia inmediata.
+          </p>
+        </div>
+
+        <div class="linea-card">
+          <div class="linea-num">04</div>
+          <h3>Promoción y Educación en DDHH</h3>
+          <p>
+            Desarrollamos actividades de promoción y difusión del conocimiento
+            en derechos humanos para fortalecer la ciudadanía activa. La
+            educación es la base para la construcción de una sociedad que
+            exige, respeta y vive los derechos.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- BANNER ENFOQUE -->
+      <div class="enfoque-banner" aria-label="Enfoque estratégico de PRODEHBOL">
+        <div class="enfoque-icon" aria-hidden="true">🏛️</div>
+        <div>
+          <h3>Enfoque Estratégico: Descolonizar los Derechos Humanos</h3>
+          <p>
+            Nuestra consigna estratégica parte del reconocimiento de que la historia
+            colonial ha dejado huellas profundas en las estructuras de poder y en el
+            ejercicio de los derechos. "Descolonizar los Derechos Humanos" implica
+            rechazar enfoques tutelares o paternalistas, y afirmar el ejercicio pleno
+            de los derechos desde las propias comunidades, culturas y cosmovisiones
+            del pueblo boliviano, siempre en consonancia con la
+            <strong style="color:var(--amarillo)">Constitución Política del Estado</strong>.
+          </p>
+        </div>
+      </div>
+
+    </section><!-- /trabajo -->
+
+
+    <!-- ─────────────────────────────────────────
+         SECCIÓN 4 — CONTACTO
+    ───────────────────────────────────────── -->
+    <section id="contacto" class="section" role="tabpanel" aria-labelledby="tab-contacto">
+
+      <div class="section-title">
+        <h2>Contacto e Información de Sede</h2>
+        <p>Información para comunicarse con PRODEHBOL y visitar nuestras instalaciones.</p>
+      </div>
+
+      <div class="contacto-grid">
+
+        <!-- INFORMACIÓN -->
+        <div class="contacto-info">
+          <h3>📋 Datos Institucionales</h3>
+
+          <div class="info-row">
+            <div class="info-icon" aria-hidden="true">📍</div>
+            <div class="info-text">
+              <label>Dirección de la Sede</label>
+              <span>Calle Donoso Torrez #3, Zona Bajo San Isidro</span>
+            </div>
+          </div>
+
+          <div class="info-row">
+            <div class="info-icon" aria-hidden="true">🏛️</div>
+            <div class="info-text">
+              <label>País</label>
+              <span>Estado Plurinacional de Bolivia</span>
+            </div>
+          </div>
+
+          <div class="info-row">
+            <div class="info-icon" aria-hidden="true">📅</div>
+            <div class="info-text">
+              <label>Año de Fundación</label>
+              <span>2019</span>
+            </div>
+          </div>
+
+          <div class="info-row">
+            <div class="info-icon" aria-hidden="true">👩‍⚖️</div>
+            <div class="info-text">
+              <label>Directora Ejecutiva</label>
+              <span>Ab. Nadesdha Guevara Oropeza</span>
+            </div>
+          </div>
+
+          <div class="info-row">
+            <div class="info-icon" aria-hidden="true">🏢</div>
+            <div class="info-text">
+              <label>Naturaleza Jurídica</label>
+              <span>Asociación Civil Sin Fines de Lucro</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- MAPA PLACEHOLDER -->
+        <div class="mapa-placeholder" role="img" aria-label="Ubicación de la sede de PRODEHBOL">
+          <div class="map-icon" aria-hidden="true">🗺️</div>
+          <h4>Sede Institucional</h4>
+          <p>
+            Nos encontramos en la<br>
+            <strong>Zona Bajo San Isidro</strong><br>
+            Estado Plurinacional de Bolivia
+          </p>
+          <div class="address-tag">
+            📍 Calle Donoso Torrez #3
+          </div>
+        </div>
+
+      </div>
+
+      <!-- HORARIO DE ATENCIÓN -->
+      <div class="section-title">
+        <h2>Horario de Atención al Público</h2>
+        <p>Le invitamos a visitar nuestra sede durante los horarios indicados.</p>
+      </div>
+
+      <table class="horario-table" role="table" aria-label="Horario de atención al público de PRODEHBOL">
+        <thead>
+          <tr>
+            <th scope="col">Día</th>
+            <th scope="col">Turno Mañana</th>
+            <th scope="col">Turno Tarde</th>
+            <th scope="col">Estado</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Lunes</strong></td>
+            <td>08:30 – 12:30</td>
+            <td>14:30 – 18:30</td>
+            <td><span class="disponible">● Abierto</span></td>
+          </tr>
+          <tr>
+            <td><strong>Martes</strong></td>
+            <td>08:30 – 12:30</td>
+            <td>14:30 – 18:30</td>
+            <td><span class="disponible">● Abierto</span></td>
+          </tr>
+          <tr>
+            <td><strong>Miércoles</strong></td>
+            <td>08:30 – 12:30</td>
+            <td>14:30 – 18:30</td>
+            <td><span class="disponible">● Abierto</span></td>
+          </tr>
+          <tr>
+            <td><strong>Jueves</strong></td>
+            <td>08:30 – 12:30</td>
+            <td>14:30 – 18:30</td>
+            <td><span class="disponible">● Abierto</span></td>
+          </tr>
+          <tr>
+            <td><strong>Viernes</strong></td>
+            <td>08:30 – 12:30</td>
+            <td>14:30 – 18:30</td>
+            <td><span class="disponible">● Abierto</span></td>
+          </tr>
+          <tr>
+            <td><strong>Sábado</strong></td>
+            <td>09:00 – 12:00</td>
+            <td>—</td>
+            <td><span class="disponible">● Parcial</span></td>
+          </tr>
+          <tr>
+            <td><strong>Domingo</strong></td>
+            <td>—</td>
+            <td>—</td>
+            <td><span class="no-disponible">Cerrado</span></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="alert-strip" role="note" aria-label="Nota sobre atención">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        <span>
+          <strong>Nota:</strong> Los horarios pueden variar en días feriados nacionales o departamentales.
+          Para casos urgentes en materia de derechos humanos, le recomendamos comunicarse directamente
+          con nuestra sede a la brevedad posible.
+        </span>
+      </div>
+
+    </section><!-- /contacto -->
+
+  </main><!-- /content -->
+
+
+  <!-- ════════════ FOOTER ════════════ -->
+  <footer role="contentinfo">
+    <div class="footer-stripe" aria-hidden="true">
+      <span style="background:#C8102E"></span>
+      <span style="background:#F4C300"></span>
+      <span style="background:#007A33"></span>
+    </div>
+    <div class="footer-main">
+      <div class="footer-brand">
+        <h3>PRODEHBOL</h3>
+        <p>
+          Pro Derechos Humanos — Bolivia. Colectivo ciudadano comprometido con
+          la promoción, defensa y plena vigencia de los derechos humanos en el
+          Estado Plurinacional de Bolivia desde 2019.
+        </p>
+        <p style="margin-top:12px; font-style:italic; color:rgba(255,255,255,0.50); font-size:0.80rem;">
+          "Descolonizar los Derechos Humanos"
+        </p>
+      </div>
+      <div class="footer-col">
+        <h4>Navegación</h4>
+        <ul>
+          <li><a onclick="document.querySelector('[data-tab=inicio]').click()" href="javascript:void(0)">Inicio</a></li>
+          <li><a onclick="document.querySelector('[data-tab=quienes]').click()" href="javascript:void(0)">Quiénes Somos</a></li>
+          <li><a onclick="document.querySelector('[data-tab=trabajo]').click()" href="javascript:void(0)">Nuestro Trabajo</a></li>
+          <li><a onclick="document.querySelector('[data-tab=contacto]').click()" href="javascript:void(0)">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Sede</h4>
+        <ul>
+          <li><span>📍 Calle Donoso Torrez #3</span></li>
+          <li><span>🏘️ Zona Bajo San Isidro</span></li>
+          <li><span>🇧🇴 Bolivia</span></li>
+          <li><span>📅 Fundada 2019</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span class="current-year"></span> PRODEHBOL — Pro Derechos Humanos Bolivia. Asociación civil sin fines de lucro.</span>
+      <span class="consigna">"Descolonizar los Derechos Humanos"</span>
+    </div>
+  </footer>
+
+  <!-- Botón volver arriba -->
+  <button id="scrollTop" aria-label="Volver al inicio de la página" title="Volver arriba">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="main.js"></script>
+</body>
+</html>
